@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		427BAADD1FBBD63B0001996C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 427BAADC1FBBD63B0001996C /* AppDelegate.m */; };
+		427BAAE01FBBD63B0001996C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427BAADF1FBBD63B0001996C /* FirstViewController.m */; };
+		427BAAE31FBBD63B0001996C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427BAAE21FBBD63B0001996C /* SecondViewController.m */; };
+		427BAAE61FBBD63B0001996C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427BAAE41FBBD63B0001996C /* Main.storyboard */; };
+		427BAAE81FBBD63B0001996C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427BAAE71FBBD63B0001996C /* Assets.xcassets */; };
+		427BAAEB1FBBD63B0001996C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 427BAAEA1FBBD63B0001996C /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		427BAAD81FBBD63B0001996C /* cwtv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cwtv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		427BAADB1FBBD63B0001996C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		427BAADC1FBBD63B0001996C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		427BAADE1FBBD63B0001996C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		427BAADF1FBBD63B0001996C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		427BAAE11FBBD63B0001996C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		427BAAE21FBBD63B0001996C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		427BAAE51FBBD63B0001996C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		427BAAE71FBBD63B0001996C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		427BAAE91FBBD63B0001996C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427BAAEA1FBBD63B0001996C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		427BAAD51FBBD63B0001996C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		427BAACF1FBBD63B0001996C = {
+			isa = PBXGroup;
+			children = (
+				427BAADA1FBBD63B0001996C /* cwtv */,
+				427BAAD91FBBD63B0001996C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		427BAAD91FBBD63B0001996C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				427BAAD81FBBD63B0001996C /* cwtv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		427BAADA1FBBD63B0001996C /* cwtv */ = {
+			isa = PBXGroup;
+			children = (
+				427BAADB1FBBD63B0001996C /* AppDelegate.h */,
+				427BAADC1FBBD63B0001996C /* AppDelegate.m */,
+				427BAADE1FBBD63B0001996C /* FirstViewController.h */,
+				427BAADF1FBBD63B0001996C /* FirstViewController.m */,
+				427BAAE11FBBD63B0001996C /* SecondViewController.h */,
+				427BAAE21FBBD63B0001996C /* SecondViewController.m */,
+				427BAAE41FBBD63B0001996C /* Main.storyboard */,
+				427BAAE71FBBD63B0001996C /* Assets.xcassets */,
+				427BAAE91FBBD63B0001996C /* Info.plist */,
+				427BAAEA1FBBD63B0001996C /* main.m */,
+			);
+			path = cwtv;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		427BAAD71FBBD63B0001996C /* cwtv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427BAAEE1FBBD63B0001996C /* Build configuration list for PBXNativeTarget "cwtv" */;
+			buildPhases = (
+				427BAAD41FBBD63B0001996C /* Sources */,
+				427BAAD51FBBD63B0001996C /* Frameworks */,
+				427BAAD61FBBD63B0001996C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cwtv;
+			productName = cwtv;
+			productReference = 427BAAD81FBBD63B0001996C /* cwtv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		427BAAD01FBBD63B0001996C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Radu Maierean";
+				TargetAttributes = {
+					427BAAD71FBBD63B0001996C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 427BAAD31FBBD63B0001996C /* Build configuration list for PBXProject "cwtv" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 427BAACF1FBBD63B0001996C;
+			productRefGroup = 427BAAD91FBBD63B0001996C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				427BAAD71FBBD63B0001996C /* cwtv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		427BAAD61FBBD63B0001996C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427BAAE81FBBD63B0001996C /* Assets.xcassets in Resources */,
+				427BAAE61FBBD63B0001996C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		427BAAD41FBBD63B0001996C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427BAAE31FBBD63B0001996C /* SecondViewController.m in Sources */,
+				427BAADD1FBBD63B0001996C /* AppDelegate.m in Sources */,
+				427BAAEB1FBBD63B0001996C /* main.m in Sources */,
+				427BAAE01FBBD63B0001996C /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		427BAAE41FBBD63B0001996C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427BAAE51FBBD63B0001996C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		427BAAEC1FBBD63B0001996C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		427BAAED1FBBD63B0001996C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		427BAAEF1FBBD63B0001996C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 782V7M83R6;
+				INFOPLIST_FILE = cwtv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cqr.cwtv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		427BAAF01FBBD63B0001996C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 782V7M83R6;
+				INFOPLIST_FILE = cwtv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cqr.cwtv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		427BAAD31FBBD63B0001996C /* Build configuration list for PBXProject "cwtv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427BAAEC1FBBD63B0001996C /* Debug */,
+				427BAAED1FBBD63B0001996C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427BAAEE1FBBD63B0001996C /* Build configuration list for PBXNativeTarget "cwtv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427BAAEF1FBBD63B0001996C /* Debug */,
+				427BAAF01FBBD63B0001996C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 427BAAD01FBBD63B0001996C /* Project object */;
+}
