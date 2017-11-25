@@ -25,6 +25,7 @@
 		427EF4681FC0CC4200E558DB /* qr_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 427EF4641FC0CC4200E558DB /* qr_error.png */; };
 		427EF4691FC0CC4200E558DB /* qr_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 427EF4651FC0CC4200E558DB /* qr_placeholder.png */; };
 		427EF46A1FC0CC4200E558DB /* qr_expired.png in Resources */ = {isa = PBXBuildFile; fileRef = 427EF4661FC0CC4200E558DB /* qr_expired.png */; };
+		42CC8B051FC923ED00EA5208 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 42CC8B041FC923EC00EA5208 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		427EF4641FC0CC4200E558DB /* qr_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qr_error.png; path = cwtv/Assets.xcassets/qr_error.png; sourceTree = SOURCE_ROOT; };
 		427EF4651FC0CC4200E558DB /* qr_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qr_placeholder.png; path = cwtv/Assets.xcassets/qr_placeholder.png; sourceTree = SOURCE_ROOT; };
 		427EF4661FC0CC4200E558DB /* qr_expired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qr_expired.png; path = cwtv/Assets.xcassets/qr_expired.png; sourceTree = SOURCE_ROOT; };
+		42CC8B041FC923EC00EA5208 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				427BAAE91FBBD63B0001996C /* Info.plist */,
 				427BAAEA1FBBD63B0001996C /* main.m */,
 				420601131FC8F74C00F83EE4 /* Images.xcassets */,
+				42CC8B041FC923EC00EA5208 /* README */,
 			);
 			path = cwtv;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CC8B051FC923ED00EA5208 /* README in Resources */,
 				420601141FC8F74C00F83EE4 /* Images.xcassets in Resources */,
 				4244FE761FBBEE330057AC50 /* icon_checkout_60.png in Resources */,
 				4206011E1FC9076600F83EE4 /* icon_white_bkg_400x240.png in Resources */,

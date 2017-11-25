@@ -1,0 +1,23 @@
+tvOS-cipherwallet is a sample, yet fully functional tvOS application intended to demonstrate
+the capabilities of a tvOS application that can collect data and perform user logins, by just
+scanning a QR code on the TV screen. You can eliminate painful typing processes using the 
+remote control, and easily integrate payments, registrations and logins in your tvOS app.
+
+The tvOS-cipherwallet app acts as a browser front end for the https://demo.cipherwallet.com 
+website. In a customer implementation, the cipherwallet API at demo.cipherwallet.com would be 
+replaced with an API running on one of your backend servers. There are several SDK that you 
+can use to speed up the integration:
+    -  https://github.com/drivefast/pycipherwallet
+    -  https://github.com/drivefast/node-cipherwallet
+    -  https://github.com/drivefast/php-cipherwallet
+You would also need to create an account on the cipherwallet website, and define the services 
+that you want to offer, and the data they collect. You can find a full description of the 
+cipherwallet services at https://www.cipherwallet.com/docs.html 
+
+Regarding the tvOS implementation, you would need to add the Cipherwallet class to your 
+project (fully contained in the Cipherwallet.h and .m files). Then follow the examples on 
+the project's view controllers to create instances of the Cipherwallet class, and interpret 
+the results coming from your API once the user scans the QR code. 
+
+Have fun, and let us know what you think in the 'Issues' section.
+
