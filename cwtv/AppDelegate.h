@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#import "VCCheckout.h"
+#import "VCSignup.h"
+#import "VCLogin.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

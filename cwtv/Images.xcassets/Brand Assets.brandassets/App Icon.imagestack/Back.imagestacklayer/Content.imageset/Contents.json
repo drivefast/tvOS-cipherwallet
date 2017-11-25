@@ -2,10 +2,12 @@
   "images" : [
     {
       "idiom" : "tv",
+      "filename" : "icon_white_bkg_400x240.png",
       "scale" : "1x"
     },
     {
       "idiom" : "tv",
+      "filename" : "icon_white_bkg_400x240-1.png",
       "scale" : "2x"
     }
   ],
